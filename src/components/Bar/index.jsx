@@ -1,3 +1,5 @@
+import React from "react"
+
 function Bar () {
     return (
         <div className="barra-portfolio">
