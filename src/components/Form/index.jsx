@@ -21,7 +21,7 @@ function Form() {
                         <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required ></textarea>
 
                         <div className="botao-enviar">
-                            <WhatsappButton nome={undefined} email={undefined} mensagem={undefined} />
+                            <WhatsappButton />
                         </div>
                     </form >
                 </div >
