@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Bar from './components/Bar';
-import About from './components/about';
+import About from './components/About';
 import Form from './components/Form';
 import './App.css';
 import React from 'react';
