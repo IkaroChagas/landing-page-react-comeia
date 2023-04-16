@@ -1,4 +1,5 @@
 import React from "react"
+import WhatsappButton from "../Button"
 
 function Form() {
 
@@ -20,7 +21,7 @@ function Form() {
                         <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem" required ></textarea>
 
                         <div className="botao-enviar">
-                            <button type="submit" id="meuBotao" className="botao">Enviar</button>
+                            <WhatsappButton nome={undefined} email={undefined} mensagem={undefined} />
                         </div>
                     </form >
                 </div >
